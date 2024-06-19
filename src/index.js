@@ -10,7 +10,9 @@ const routes = {
   "quay.shihaoh.com": "https://quay.io",
   "gcr.shihaoh.com": "https://k8s.gcr.io",
   "k8s-gcr.shihaoh.com": "https://k8s.gcr.io",
+  "k8s.shihaoh.com": "https://registry.k8s.io",
   "ghcr.shihaoh.com": "https://ghcr.io",
+  "cloudsmith.shihaoh.com": "https://docker.cloudsmith.io",
 };
 
 function routeByHosts(host) {
